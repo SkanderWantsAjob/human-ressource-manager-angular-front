@@ -1,0 +1,28 @@
+:root {
+    --header-color: #1e90ff;
+ 
+}
+
+
+
+  
+  .hex-bg {
+    background-color: var(--color-primary);
+  }
+  
+  .rgba-bg {
+    background-color: rgba(var(--color-primary-rgb), 0.5);
+  }
+  
+  div {
+    padding: 8px;
+    margin: 8px;
+  }
+.wrapper {
+    width: 100%;
+    background-color: var(--header-color);
+    height: 80px;
+    border-top: 10px solid yellow;
+    
+  }
+  
