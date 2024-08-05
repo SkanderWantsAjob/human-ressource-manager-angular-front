@@ -1,0 +1,39 @@
+
+    <header>
+        <nav>
+            <ul>
+                <li><a routerLink="/">Home</a></li>
+                <li><a [routerLink]="['/home']">Projects</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Welcome to the HR Manager Portal</h1>
+            <p>Streamline your employee management and project tracking.</p>
+        </section>
+        <section class="actions">
+            <div class="card-container">
+                <div class="card sign-in">
+                    <h2>Sign In</h2>
+                    <p>Access your account and manage your tasks efficiently.</p>
+                    <button>Sign In</button>
+                </div>
+                <div class="card sign-up">
+                    <h2>Sign Up</h2>
+                    <p>Create a new account to get started with your management tasks.</p>
+                    <a routerLink="/signup"> <button>Sign Up</button> </a>
+                </div>
+                <div class="card projects">
+                    <h2>Projects in Progress</h2>
+                    <p>Track and manage ongoing projects with ease.</p>
+                    <a routerLink="/projects"><button>View Projects</button></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 HR Manager. All rights reserved.</p>
+    </footer>

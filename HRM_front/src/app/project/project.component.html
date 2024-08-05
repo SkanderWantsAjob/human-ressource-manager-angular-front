@@ -1,0 +1,18 @@
+<div class="projects-container">
+    <h2>Projects in Progress</h2>
+    <table class="projects-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let project of projects">
+          <td>{{ project.name }}</td>
+          <td>{{ project.description }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
